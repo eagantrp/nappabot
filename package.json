@@ -1,0 +1,28 @@
+{
+  "name": "nappabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nappabot.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "discord.js": "^11.4.2",
+    "eslint": "^5.6.1",
+    "ffmpeg-binaries": "^4.0.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagantrp/nappabot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eagantrp/nappabot/issues"
+  },
+  "homepage": "https://github.com/eagantrp/nappabot#readme"
+}
