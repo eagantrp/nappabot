@@ -3,14 +3,16 @@ import Discord from 'discord.js'
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log("I am ready!")
+    console.log("Hey Vegeta, are we there yet?")
 })
 
 client.on('message', message => {
-    if (message.content === '!Hello') {
-        message.channel.send('Hello, ' + message.author)
+    if (message.content === '!hello') {
+        message.channel.send("Look Vegeta... it's a pokemon! It's a " + message.author + "!")
     }
 
 })
-dfgdfg
-client.login('497437524738965514')
+if (client.uptime % 1800000 === 0) {
+    client.channels.every.map(channel => channel.send("Hey Vegeta! I'm Nappabot! To see my commands, type !help"))
+}
+client.login('NDk3NDM3NTI0NzM4OTY1NTE0.DpfrQg.l0B27coEfikdhYLlj0D0sAVuMS0')
